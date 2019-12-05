@@ -1,11 +1,16 @@
 header {
     background: #4aaaa5;
-
+    font-size: 
 }
 
 h1 {
-    color: #4aaaa5;
+    color: white;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
+    width="50 px"
+}
+
+h2 {
+    color: #4aaaa5;
 }
 
 p {
@@ -14,7 +19,14 @@ p {
 }
 
 img {
-    padding: 50 px;
-    margin: 50 px;
-    border: 0 px
+    height= "25 px";
+    width= "25 px";
+    padding= "50 px";
+    margin= "50 px";
+    border= "0 px"
+}
+
+body{
+    background-color: #ffffff;
+    border-color: #dddddd;
 }
