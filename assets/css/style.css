@@ -1,32 +1,99 @@
-header {
-    background: #4aaaa5;
-    font-size: 
+body {
+    display: block;
+    margin: auto;
+    background: url(../images/papyrus.jpg);
+    background-position: 100% 100%;
 }
 
-h1 {
+.topbar {
+    background-color: white;
+    display: block;
+    width: auto;
+    border-bottom: black; 5px;
+}
+
+.name {
+    display: block;
+    background-color: #4aaaa5;
+    float: left;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 25px;
+    padding-left: 0px;
+    margin-left: 25px;
     color: white;
-    font-family: 'Georgia', Times, 'Times New Roman', serif;
-    width="50 px"
+    text-align: center;
 }
 
-h2 {
-    color: #4aaaa5;
+.topnav {
+    background: rgb(231, 231, 231);
+    text-align: center;
+    padding-left: 800px;
+    padding-bottom: 25px;
+    padding-right: 30px;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    height: 20px;
+}
+ul {
+    float: right;
+    list-style-type: horizontal;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    background-color: white;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14 px 16 px;
+    text-decoration: none;
+}
+
+.box1 {
+    background: white;
+    width: 60%;
+    border: 1px rgb(102, 99, 99);
+    padding-top: 1px;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+#portfolio {
+    float: right;
+}
+
+#contact {
+    float: clear right;
 }
 
 p {
-    color: #777777;
+    color: black;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
-img {
-    height= "25 px";
-    width= "25 px";
-    padding= "50 px";
-    margin= "50 px";
-    border= "0 px"
+h1 {
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
 
-body{
-    background-color: #ffffff;
-    border-color: #dddddd;
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+    background-color: gray;
+    color: white;
+    text-align: center;
+}
+#footertext {
+    color: white;
 }
